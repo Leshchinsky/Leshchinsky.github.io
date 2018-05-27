@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, Serif;
+	background: url(../img/bg2.png);
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1180px;
+}
+
+/*HEADER*/
+header {
+	margin-top: 10px;
+}
+
+.logo {
+	width: 150px;
+	border: 1px solid red;
+}
+/*END HEADER*/
+
+
+/*NAV*/
+nav {
+	margin-bottom: 10px;
+	padding-left: 20px;
+	height: 30px;
+	line-height:30px;
+	border-top: 1px solid #282689;
+	border-bottom: 1px solid #282689;
+	background: linear-gradient(to top, #499b78, #62e3ac);
+	font-size: 20px;
+	
+}
+
+nav a {
+	margin-right: 20px;
+	text-decoration: none;
+	color: #080760;
+}
+
+span {
+	margin-right: 20px;
+	font-style: italic;
+	color: #427141;
+}
+/*END NAV*/
+
+
+
+/*CONTENT*/
+.prod {
+	font-weight: bold;
+}
+
+.cont_image {
+	margin-top: 10px;
+	margin-right: 70px;
+	width: 250px;
+	border: 3px solid #080760;
+	transition: 1.5s all;
+}
+
+.cont_image:hover {
+width: 270px;
+}
+
+.last {
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+h1 {
+	margin-bottom: 20px;
+	color: #9c7355;
+	-webkit-text-stroke: 1px #000;
+}
+
+h2 {
+	margin-bottom: 10px;
+	color: #429040;
+	-webkit-text-stroke: 1px #000;
+}
+
+div {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.info {
+	padding-left: 20px;
+}
+
+input {
+	margin-bottom:
+	20px;
+}
+/*END CONTENT*/
+
+/*FOOTER*/
+footer {
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid #000;
+	font-style: italic;
+}
+/*END FOOTER*/
