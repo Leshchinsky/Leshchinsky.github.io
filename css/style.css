@@ -63,6 +63,7 @@ span {
 	margin-right: 70px;
 	width: 250px;
 	border: 3px solid #080760;
+	border-radius: 10px;
 	transition: 1.5s all;
 }
 
